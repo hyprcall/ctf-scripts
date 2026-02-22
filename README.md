@@ -26,7 +26,7 @@ Usage: ./netscan.sh -t <TARGET_IP> [-u] [-s]
 
 ## Installation
 ```shell
-git clone [Github Repo Link]
+git clone https://github.com/hyprcall/ctf-scripts
 cd ctf-scripts
 chmod +x netscan
 ```
