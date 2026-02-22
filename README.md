@@ -10,7 +10,7 @@ The scan I usually need to perform is a TCP scan with service and version enumer
 
 ## Features
  - Allows easy selection of what type of scan you want to perform.
- - More features coming soon...
+ - Might implement some other integrations soon...
 
 ## Usage
 ```shell
