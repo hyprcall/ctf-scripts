@@ -4,7 +4,7 @@ Welcome to my collection of CTF scripts.
 # Purpose
 The purpose of this repo is to document a few different scripts that might be useful to other ctf players. As well as having a neat way for me to access my personal scripts across devices.
 
-# Netscan
+# netscan.sh
 I find that I always type the same commands when starting a CTF challenge. Therefore, I decided to create a simple script that fits most of my needs for network scanning when attempting a challenge and thus, I designed it to fit my specific use cases.
 The scan I usually need to perform is a TCP scan with service and version enumeration. However, I find that performing a UDP scan has also given me critical information.
 
