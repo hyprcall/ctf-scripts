@@ -14,6 +14,10 @@ class Message:
         color, prefix = Message.types.get(msg_type, Message.types["info"])
         print(f"{color}{prefix} {message}\033[0m")
 
+# Prints the Banner of the Main Program
 def banner():
-    result = pyfiglet.figlet_format("bREach", "Fire Font-k")
-    print(result)
+    art = pyfiglet.figlet_format("bREach", font="slant")
+    print(f"\033[38;2;255;0;18m{art}\033[0m")
+    print("\033[38;2;179;179;179mv0.0.1 | hyprcall\033[0m")
+    print("\033[38;2;73;177;245mGaining Understanding.\033[0m")
+
