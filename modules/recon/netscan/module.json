@@ -1,0 +1,15 @@
+{
+	"name": "netscan",
+	"description": "Simplified Network Recon script for TCP/UDP",
+	"dependencies": ["rustscan", "nmap"],
+	"version": "1.0.0",
+	"active": true,
+	"status": "stable",
+	"arguments": ["target", "flags"],
+	"language": "bash",
+	"category": "recon",
+	"author":{
+		"alias": "hypr",
+		"github": "hyprcall"
+	}
+}

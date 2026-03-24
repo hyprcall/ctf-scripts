@@ -1,0 +1,15 @@
+{
+	"name": "rsa",
+	"description": "RSA solver script (small modulus)",
+	"dependencies": [],
+	"version": "1.0.0",
+	"active": true,
+	"status": "limited",
+	"arguments": [],
+	"language": "python",
+	"category": "crypto",
+	"author":{
+		"alias": "hypr",
+		"github": "hyprcall"
+	}
+}
