@@ -1,42 +1,26 @@
-# CTF Scripts
-Welcome to my collection of CTF scripts.
+# bREach
+bREach (the RE is intentional, it stands for Reverese Engineering) is a modular offensive security framework built for CTF challenges and beyond.
 
-# Purpose
-The purpose of this repo is to document a few different scripts that might be useful to other ctf players. As well as having a neat way for me to access my personal scripts across devices.
+This project is as much a learning vehicle as it is a tool. Built across multiple languages (bash, Python, C, and whatever comes next), each module reflects a skill being developed in parallel. Expect it to grow organically.
 
-# Netscan
-I find that I always type the same commands when starting a CTF challenge. Therefore, I decided to create a simple script that fits most of my needs for network scanning when attempting a challenge and thus, I designed it to fit my specific use cases.
-The scan I usually need to perform is a TCP scan with service and version enumeration. However, I find that performing a UDP scan has also given me critical information.
+The long term vision is a lightweightm, self-contained framework for tackling CTF challenges across all categories, with potential CVE POCs added as knowledge deepens.
 
-## Features
- - Allows easy selection of what type of scan you want to perform.
- - More features coming soon...
+## Current State 
 
-## Usage
-```shell
-Usage: ./netscan.sh -t <TARGET_IP> [-u] [-s]
- -t Target IP address
- -u Run UDP scan (WARNING: Slow)
- -s Skip TCP Scan (Only run UDP if -u is also set)
+Early development. The foundation is being laid.
 
-# Example for both TCP and UDP scan
-./netscan.sh -t 127.0.0.1 -u
-# You will be prompted whether you would like a full UDP scan or a top-100 fast
-```
+**Modules**
+- `recon/netscan`:TCP/UDP network scanner (Rustscan + Nmap wrapper)
+- `crypto/rsa`: Basic RSA challenge solver (small modulus only, for now)
 
-## Installation
-```shell
-git clone [Github Repo Link]
-cd ctf-scripts
-chmod +x netscan
-```
-If you would like to add the script to your path there a few methods. However, this is my recommended method:
-```shell
-sudo ln -s /path/to/netscan.sh /usr/local/bin/netscan
-```
+## Roadmap
 
-# RSA.py
-This script was useful to me when solving an RSA challenge during the National Cyber League (NCL) practice. As long as you have the necessary inputs it works decently. It's not quite as powerful as other tools and cannot handle an extremem large modulus. For that you might need special tools that implement sagemath.
+- Core dispatcher
+- Session/state management per target
+- Expanded module categories: Web, Exploitation, Forensics
+- C modules as C knowledge grows
 
+## Author
 
+hyprcall -- CTF player, aspiring security researcher, perpetual student.
 
