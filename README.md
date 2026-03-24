@@ -3,7 +3,7 @@ bREach (the RE is intentional, it stands for Reverese Engineering) is a modular 
 
 This project is as much a learning vehicle as it is a tool. Built across multiple languages (bash, Python, C, and whatever comes next), each module reflects a skill being developed in parallel. Expect it to grow organically.
 
-The long term vision is a lightweightm, self-contained framework for tackling CTF challenges across all categories, with potential CVE POCs added as knowledge deepens.
+The long term vision is a lightweight, self-contained framework for tackling CTF challenges across all categories, with potential CVE POCs added as knowledge deepens.
 
 ## Current State 
 
